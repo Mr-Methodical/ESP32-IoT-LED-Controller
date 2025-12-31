@@ -1,9 +1,3 @@
-/*
- * SPDX-FileCopyrightText: 2021-2022 Espressif Systems (Shanghai) CO LTD
- *
- * SPDX-License-Identifier: Apache-2.0
- */
-
 #include "esp_check.h"
 #include "led_strip_encoder.h"
 
@@ -83,7 +77,7 @@ esp_err_t rmt_new_led_strip_encoder(const led_strip_encoder_config_t *config, rm
     led_encoder->base.encode = rmt_encode_led_strip;
     led_encoder->base.del = rmt_del_led_strip_encoder;
     led_encoder->base.reset = rmt_led_strip_encoder_reset;
-    // different led strip might have its own timing requirements, following parameter is for WS2812
+    // following parameter is for WS2812
     rmt_bytes_encoder_config_t bytes_encoder_config = {
         .bit0 = {
             .level0 = 1,
