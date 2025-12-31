@@ -11,13 +11,13 @@ This project was designed to support my brother’s New Year’s resolution: spe
 
 ## Project Showcase
 
-### **IoT LED Rink Video (Click on Photo)**
+### **IoT LED Rink Video**
 <a href="https://youtu.be/VQddDjZLYws">
-  <img src="assets/lab.png" width="600" alt="Watch the Video">
+  <img src="assets/lab3.png" width="600" alt="Watch the Video">
 </a>
 
 ### **The Hardware**
-<img src="assets/circuit.png" width="500" alt="Breadboard Assembly">
+<img src="assets/circuit2.png" width="500" alt="Breadboard Assembly">
 
 ---
 
