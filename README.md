@@ -61,7 +61,7 @@ This setup features a **15A high-amperage power configuration** and signal trans
 
 ## How to Run
 
-1. **Clone the repo:** `git clone https://github.com/yourusername/your-repo`
+1. **Clone the repo:** `git clone https://github.com/Mr-Methodical/ESP32-IoT-LED-Controller`
 2. **Add Credentials:** Create a `main/secrets.h` with your Wi-Fi SSID and Password.
 3. **Build & Flash:**
    ```bash
